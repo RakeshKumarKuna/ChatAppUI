@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  /* ensure app background and foreground are readable regardless of global styles */
+  background-color: #071024; /* very dark navy */
+  color: #e9eef6;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
